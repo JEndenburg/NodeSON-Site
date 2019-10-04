@@ -3,6 +3,7 @@
 NodeSON Site is a project that allows you to define the contents of a webpage in JSON, and is constructed using [Node.js](https://nodejs.org/en/), [Express](https://expressjs.com/) and [EJS](https://ejs.co/).
 
 ## How do I use it?
+Download/Clone or Fork and Download/Clone the repository.
 Install [Node.js](https://nodejs.org/en/), edit the JSON files under "models", run it with Node.js:
     node app
 And head over to
