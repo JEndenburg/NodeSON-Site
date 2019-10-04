@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Home",
+        "icon": "home",
+        "URL": "/"
+    },
+    {
+        "name": "Compact",
+        "icon": "view_compact",
+        "URL": "/compact"
+    },
+    {
+        "name": "Grid",
+        "icon": "view_comfy",
+        "URL": "/grid"
+    },
+    {
+        "name": "About",
+        "icon": "help",
+        "URL": "/about"
+    }
+]

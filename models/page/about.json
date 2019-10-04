@@ -1,0 +1,14 @@
+{
+    "type": "basic",
+    "title": "About",
+    "articles":
+    [
+        {
+            "title": "About",
+            "paragraphs":
+            [
+                "This page was made using JSON, ejs and node.js!"
+            ]
+        }
+    ]
+}

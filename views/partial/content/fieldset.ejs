@@ -1,0 +1,13 @@
+<fieldset>
+    <legend><%- article.title %></legend>
+    <% for(let content of article.content) 
+    {
+        switch(content.type ? content.type : "paragraph")
+        {
+            default:
+            case "paragraph":%>
+                <p><%- content.content %></p>
+        <% 
+        } 
+    }%>
+</fieldset>

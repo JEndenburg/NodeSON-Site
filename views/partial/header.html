@@ -1,0 +1,14 @@
+<header id="main-header">
+    <img id="logo" src="img/logo.gif">
+    <div id="sitename">
+        <%= site.name %>
+    </div>
+    <nav>
+        <% for(let n of nav) { %>
+            <a href=<%= n.URL %>><i class="material-icons"><%= n.icon %></i><span class="nav-text"><%= n.name %></span></a>
+        <% } %>
+    </nav>
+    <div id="burger">
+        ...
+    </div>
+</header>

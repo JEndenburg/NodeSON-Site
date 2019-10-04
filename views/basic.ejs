@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link href="style/main.css" rel="stylesheet">
+        <script type="text/javascript" src="src/main.js" defer></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <title><%= content.title %></title>
+    </head>
+    <body>
+        <%- include partial/header.html %>
+        <main>
+            <% for(let article of content.articles) { %>
+                <% switch(article.type ? article.type : "text") { 
+                    case "fieldset": %>
+                        <%- include partial/content/fieldset.ejs %>
+                    <% break; %>
+                    <% default: %>
+                        <%- include partial/content/article.ejs %>
+                    <% break; %>
+                <% }
+            } %>
+        </main>
+        <%- include partial/footer.html %>
+    </body>
+</html>

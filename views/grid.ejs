@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link href="style/main.css" rel="stylesheet">
+        <link href="style/grid.css" rel="stylesheet">
+        <script type="text/javascript" src="src/main.js" defer></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <title><%= content.title %></title>
+        <style>
+            <% for(let i = 0; i < content.articles.length; i++) { %>
+                    #art-bg<%= i %>
+                    {
+                        <% if(content.articles[i].image) { %>
+                            background-image: url("<%= content.articles[i].image %>");
+                        <% } else { %>
+                            display: none;
+                        <% } %>
+                    }
+            <% } %>
+        </style>
+    </head>
+    <body>
+        <%- include partial/header.html %>
+        <main>
+            <% for(let i = 0; i < content.articles.length; i++) { let article = content.articles[i]; %>
+                <% switch(article.type ? article.type : "text") {
+                    default: %>
+                        <%- include partial/content/article_grid.ejs %>
+                    <% break;
+                } %>
+            <% } %>
+        </main>
+        <%- include partial/footer.html %>
+    </body>
+</html>

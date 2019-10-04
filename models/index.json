@@ -1,0 +1,22 @@
+[
+    {
+        "name": "/home",
+        "content": "home.json",
+        "alts": ["/"]
+    },
+    {
+        "name": "/about",
+        "content": "about.json",
+        "alts": []
+    },
+    {
+        "name": "/compact",
+        "content": "compact.json",
+        "alts": []
+    },
+    {
+        "name": "/grid",
+        "content": "grid.json",
+        "alts": []
+    }
+]

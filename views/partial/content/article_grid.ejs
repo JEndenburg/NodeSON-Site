@@ -1,0 +1,9 @@
+<article>
+    <div class="article-content">
+        <h1><%- article.title %></h1>
+        <% for(let par of article.paragraphs) { %>
+            <p><%- par %></p>
+        <% } %>
+    </div>
+    <div class="art-bg" id="art-bg<%= i %>"></div>
+</article>

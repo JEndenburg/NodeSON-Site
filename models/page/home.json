@@ -1,0 +1,36 @@
+{
+    "type": "basic",
+    "title": "Site Home",
+    "articles":
+    [
+        {
+            "type": "text",
+            "title": "Hello World!",
+            "paragraphs":
+            [
+                "Spicy jalapeno bacon ipsum dolor amet in nisi leberkas sed rump sirloin, pork belly tenderloin biltong dolore minim exercitation nulla. Shankle duis laboris venison do short loin. Proident eiusmod deserunt voluptate sint ball tip strip steak in. Do id laboris eiusmod ball tip brisket occaecat in officia bresaola voluptate t-bone ut. Ad laborum deserunt consequat occaecat et. ",
+                "Salami turducken porchetta, corned beef tail chuck leberkas capicola burgdoggen doner jowl jerky tenderloin kielbasa beef ribs. Pancetta jowl pork chop pork beef ribs drumstick picanha sirloin chuck capicola cow tenderloin ribeye short ribs. Pork alcatra shank boudin frankfurter ground round capicola ham. Jowl ball tip ham hock landjaeger. ",
+                "<img src=\"img/logo.gif\" width=\"120\"/> Super!",
+                "Meatloaf shoulder ground round turducken pork loin flank strip steak doner turkey bacon salami kielbasa short loin cupim tongue. Boudin andouille pig tongue, swine kevin chuck. Porchetta andouille doner tri-tip. Tongue ribeye porchetta, andouille ham hock beef prosciutto. "
+            ]
+        },
+        {
+            "title": "Foo Bar!",
+            "paragraphs":
+            [
+                "Cow porchetta frankfurter chuck ball tip burgdoggen tenderloin shankle, pork loin ham hock brisket hamburger. Spare ribs shoulder ham turducken, short loin shankle fatback hamburger shank sausage ribeye jerky. Pancetta tenderloin corned beef fatback, strip steak tail capicola drumstick cow alcatra bacon rump ham hock. Flank beef ribs kevin ham hock tri-tip leberkas strip steak beef drumstick shank kielbasa prosciutto fatback."
+            ]
+        },
+        {
+            "type": "fieldset",
+            "title": "A Wonderful Fieldset",
+            "content":
+            [
+                {
+                    "type": "paragraph",
+                    "content": "Hello World!"
+                }
+            ]
+        }
+    ]
+}
