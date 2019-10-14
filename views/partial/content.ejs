@@ -3,6 +3,10 @@
         <%- include content/fieldset.ejs %>
     <% break; %>
     <% default: %>
-        <%- include content/article.ejs %>
+        <% if (content.type === "grid") { %>
+            <%- include content/article_grid.ejs %>
+        <% } else { %>
+            <%- include content/article.ejs %>
+        <% } %>
     <% break; %>
 <% } %>
