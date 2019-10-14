@@ -15,11 +15,7 @@
                     <tr>
                         <% for(let x = 0; x < 3 && i < content.articles.length; x += (content.articles[i].span ? content.articles[i].span : 1), i++) { let article = content.articles[i]; %>
                             <td colspan="<%= (article.span ? article.span : 1) %>">
-                                <% switch(article.type ? article.type : "text") {
-                                    default: %>
-                                        <%- include partial/content/article.ejs %>
-                                    <% break;
-                                } %>
+                                <%- include partial/content.ejs %>
                             </td>
                         <% } %>
                     </tr>

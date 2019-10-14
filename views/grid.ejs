@@ -23,11 +23,7 @@
         <%- include partial/header.html %>
         <main>
             <% for(let i = 0; i < content.articles.length; i++) { let article = content.articles[i]; %>
-                <% switch(article.type ? article.type : "text") {
-                    default: %>
-                        <%- include partial/content/article_grid.ejs %>
-                    <% break;
-                } %>
+                <%- include partial/content.ejs %>
             <% } %>
         </main>
         <%- include partial/footer.html %>

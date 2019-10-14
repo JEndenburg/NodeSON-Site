@@ -1,0 +1,8 @@
+<% switch(article.type ? article.type : "text") { 
+    case "fieldset": %>
+        <%- include content/fieldset.ejs %>
+    <% break; %>
+    <% default: %>
+        <%- include content/article.ejs %>
+    <% break; %>
+<% } %>
